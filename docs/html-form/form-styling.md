@@ -28,10 +28,12 @@ On this page you'll find tips, tricks and links to help you style your forms.
   </head>
   <body>
     <form class="vertical-form" action="https://submit-form.com/your-form-id">
-      <label for="first-name">First name</label>
-      <input id="first-name" name="first-name" type="text" />
-      <label for="last-name">Last name</label>
-      <input id="last-name" name="last-name" type="text" />
+      <label for="your-name">Your name</label>
+      <input id="your-name" name="your-name" type="text" />
+      <label for="email">email-id</label>
+      <input id="email" name="email-id" type="email" />
+      <label for="Phone-Number">Phone-Number</label>
+      <input id="Phone-Number" name="Phone-Number" type="number" />
       <label for="message">Message</label>
       <textarea id="message" name="message" cols="15" rows="5"></textarea>
       <button type="submit">Submit</button>
